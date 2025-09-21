@@ -5,15 +5,5 @@ default = "target/server"
 [template]
 # Files to include in the template but exclude from variable substitution
 exclude = [
-    "public/favicon.ico",
     "**/*.ico",
-    "**/*.png",
-    "**/*.jpg",
-    "**/*.jpeg",
-    "**/*.gif",
-    "**/*.svg",
-    "**/*.woff",
-    "**/*.woff2",
-    "**/*.ttf",
-    "**/*.eot"
 ]
