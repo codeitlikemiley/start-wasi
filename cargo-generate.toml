@@ -1,3 +1,9 @@
 [placeholders.component_outdir]
 prompt = "Where to output your WASI component"
 default = "target/server"
+
+[template]
+exclude = [
+  "public/favicon.ico",
+  # Add other binary files here if needed
+]
